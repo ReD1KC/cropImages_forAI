@@ -21,7 +21,7 @@ def crop_images (folder_path, output_folder, crop_boxes, file_suffixes):
                     cropped_img_path = os.path.join(output_folder, new_filename)
                     cropped_img.save(cropped_img_path)
 
-# Пример использования функции:
+# Example of how to use the function:
 # folder_path = ''
 # output_folder = ''
 # crop_boxes = [(), ()]
